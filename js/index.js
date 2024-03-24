@@ -17,7 +17,7 @@ const renderTask = (task) => {
     li.setAttribute('date-key', task.getId().toString())
     li.innerHTML = task.getText();
     renderLink(li, task.getId());
-    renderSpan(li, task.getText());
+    //renderSpan(li, task.getText());
     list.append(li)
   }
 
